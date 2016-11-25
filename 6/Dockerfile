@@ -1,7 +1,7 @@
 FROM node:6
 MAINTAINER Kristian Gray <kristian.gray@gmail.com>
 
-RUN npm install -g webpack webpack-dev-server
+RUN npm install -g webpack webpack-dev-server eslint-cli
 
 VOLUME /app
 
